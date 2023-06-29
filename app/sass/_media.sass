@@ -1,0 +1,153 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	.about-wrapper
+		padding-left: 0
+	.contact-row
+		flex-direction: column 
+		margin-top: 20px
+	.download-btn
+		margin-left: 0
+		margin-top: 20px
+	.about 
+		line-height: 1.5
+	.resume__item
+		flex-direction: column
+	.resume-title-col
+		text-align: center 
+		margin-bottom: 30px
+	.resume__item__header
+		//text-align: center
+	
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+	.h1
+		font-size: 65px
+	.main-screen__info
+		font-size: 20px
+	.menu__link
+		margin: 0 5vw
+	.photo 
+		width: 360px
+		margin-bottom: 30px
+	.section 
+		padding-top: 50px 
+		padding-bottom: 50px
+	.resume-item__position
+		font-size: 19px
+	.date
+		font-size: 18px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+	.header 
+		padding-top: 30px
+	.h1
+		font-size: 14vw
+		line-height: 1
+	.main-screen__info
+		font-size: 6vw
+	.menu 
+		display: none 
+		position: absolute 
+		top: 0 
+		left: 0 
+		width: 100%
+		background: #000 
+		height: 100vh
+		.menu__link 
+			display: block 
+			text-align: center
+			width: 100%
+			margin: 25px 0
+			font-size: 20px
+	.menu.active 
+		display: flex 
+		flex-direction: column 
+		justify-content: center 
+		align-items:  center
+			
+		
+	.menu-btn
+		cursor: pointer
+		position: relative
+		z-index: 999
+	.menu-row
+		width: 30px 
+		height: 2px 
+		margin-bottom: 6px
+		background: #fff
+		transition: all 0.3s
+	.header
+		.container-fluid 
+			justify-content: flex-end
+	.menu-btn.active 
+		.menu-row:last-child 
+			display: none
+		.menu-row:nth-child(2)
+			transform: rotate(45deg)
+		.menu-row:first-child
+			transform: rotate(-45deg)
+			margin-bottom: 0
+			position: relative
+			top: 2px
+	.header 
+		position: absolute
+
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 405px)
+	/**/
+	.tech-skill
+		font-size: 14px
+	.to-top
+		right: 20px
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
+
+
+
+
